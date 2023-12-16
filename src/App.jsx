@@ -4,6 +4,7 @@ import Home from "./components/Home";
 import Navbar from "./components/Navbar";
 import Products from "./components/Products";
 import Services from "./components/Services";
+import Blog from "./components/blog";
 
 const App = () =>{
   return (
@@ -13,6 +14,7 @@ const App = () =>{
         <Services />
         <About />
         <Products />
+        <Blog />
       </>
   )
 }
